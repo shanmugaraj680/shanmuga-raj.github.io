@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shanmuga Raj | Data Analyst</title>
+<meta name="description" content="Shanmuga Raj — Data Analyst specializing in SQL, Python, Excel and Power BI. Turning data into insights.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">SR<span class="dot">.</span></a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button id="hamburger" class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="home">
+  <div class="hero-bg">
+    <div class="grid-overlay"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+  </div>
+
+  <div class="hero-content reveal">
+    <p class="hero-eyebrow">// Hello, I'm</p>
+    <h1 class="hero-name">Shanmuga Raj</h1>
+    <h2 class="hero-title">
+      <span id="typedText"></span><span class="cursor">|</span>
+    </h2>
+    <p class="hero-desc">Turning data into insights and building practical analytics solutions.</p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="assets/resume/Shanmuga_Raj_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+    </div>
+
+    <div class="hero-socials">
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      </a>
+      <a href="https://github.com/your-github" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.6.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.68.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <span></span>
+  </a>
+</header>
+
+<main>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section-tag reveal">01 — About</p>
+    <h2 class="section-title reveal">About Me</h2>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm an Operations professional with <strong>3+ years of experience</strong>, transitioning into Data Analytics. I work with SQL, Python, Excel and Power BI to clean, analyze and visualize data.</p>
+        <p>I enjoy turning messy, real-world data into clear stories — building dashboards, automating repetitive workflows, and finding the signal that actually helps a team make a decision.</p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num" data-count="3">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="5">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="4">0</span>
+            <span class="stat-label">Core Tools</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-card reveal">
+        <div class="code-window">
+          <div class="code-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="code-filename">profile.py</span>
+          </div>
+          <pre class="code-body"><code><span class="c-key">class</span> <span class="c-class">Analyst</span>:
+    <span class="c-key">def</span> <span class="c-fn">__init__</span>(self):
+        self.name = <span class="c-str">"Shanmuga Raj"</span>
+        self.role = <span class="c-str">"Data Analyst"</span>
+        self.stack = [<span class="c-str">"SQL"</span>, <span class="c-str">"Python"</span>,
+                      <span class="c-str">"Excel"</span>, <span class="c-str">"Power BI"</span>]
+        self.focus = <span class="c-str">"insights > noise"</span>
+
+    <span class="c-key">def</span> <span class="c-fn">say_hi</span>(self):
+        <span class="c-key">return</span> <span class="c-str">"Let's build something data-driven."</span></code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="section-tag reveal">02 — Skills</p>
+    <h2 class="section-title reveal">Tools I Work With</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <h3>SQL / PostgreSQL</h3>
+        <p>Querying, joins, window functions, query optimization</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🐍</div>
+        <h3>Python / Pandas / NumPy</h3>
+        <p>Data wrangling, EDA, scripting and automation</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📊</div>
+        <h3>Excel / VBA / Power Query</h3>
+        <p>Advanced formulas, macros, ETL-style transforms</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📈</div>
+        <h3>Power BI / DAX</h3>
+        <p>Interactive dashboards, data modeling, measures</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🧹</div>
+        <h3>Data Cleaning</h3>
+        <p>Deduplication, standardization, validation pipelines</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🔍</div>
+        <h3>Data Analysis</h3>
+        <p>Exploratory analysis, statistical summaries, insights</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🎨</div>
+        <h3>Data Visualization</h3>
+        <p>Charts, dashboards, storytelling with data</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚙️</div>
+        <h3>Automation</h3>
+        <p>Workflow scripting, OCR pipelines, batch processing</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section" id="experience">
+  <div class="container">
+    <p class="section-tag reveal">03 — Experience</p>
+    <h2 class="section-title reveal">Where I've Worked</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="badge badge-current">Current</span>
+          <h3>Operations Executive</h3>
+          <p class="timeline-org">Armsoftech Private Limited</p>
+          <p class="timeline-desc">Leading operational workflows and data reporting, with a growing focus on analytics-driven decision making.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="badge">Previous</span>
+          <h3>Web Analyst</h3>
+          <p class="timeline-org">Ninestars Information Technologies</p>
+          <p class="timeline-desc">Worked on web data analysis, reporting workflows and quality checks across large datasets.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="badge">Previous</span>
+          <h3>IT Recruiter</h3>
+          <p class="timeline-org">KRG Technologies</p>
+          <p class="timeline-desc">Managed technical hiring pipelines, sourcing and candidate evaluation for IT roles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <p class="section-tag reveal">04 — Projects</p>
+    <h2 class="section-title reveal">Things I've Built</h2>
+
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="sql">SQL</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="powerbi">Power BI</button>
+      <button class="filter-btn" data-filter="automation">Automation</button>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid">
+      <!-- Injected by script.js from PROJECTS array -->
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <div class="container">
+    <p class="section-tag reveal">05 — Contact</p>
+    <h2 class="section-title reveal">Let's Connect</h2>
+    <p class="contact-lead reveal">Open to Data Analyst, Business Analyst, Financial Analyst, Credit Analyst and Risk Analyst opportunities.</p>
+
+    <div class="contact-grid reveal">
+      <a href="mailto:your.email@example.com" class="contact-card">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+        </div>
+        <h3>Email</h3>
+        <p>your.email@example.com</p>
+      </a>
+
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </div>
+        <h3>LinkedIn</h3>
+        <p>linkedin.com/in/your-linkedin</p>
+      </a>
+
+      <a href="https://github.com/your-github" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.6.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.68.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+        </div>
+        <h3>GitHub</h3>
+        <p>github.com/your-github</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Shanmuga Raj. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
